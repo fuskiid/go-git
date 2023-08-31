@@ -7,10 +7,10 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/go-git/go-git/v5/plumbing/format/pktline"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/plumbing/transport/internal/common"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/fuskiid/go-git/v5/plumbing/format/pktline"
+	"github.com/fuskiid/go-git/v5/plumbing/transport"
+	"github.com/fuskiid/go-git/v5/plumbing/transport/internal/common"
+	"github.com/fuskiid/go-git/v5/utils/ioutil"
 )
 
 // DefaultClient is the default git client.

@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"github.com/armon/go-socks5"
+	"github.com/fuskiid/go-git/v5/plumbing/transport"
+	ggssh "github.com/fuskiid/go-git/v5/plumbing/transport/ssh"
 	"github.com/gliderlabs/ssh"
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	ggssh "github.com/go-git/go-git/v5/plumbing/transport/ssh"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	stdssh "golang.org/x/crypto/ssh"

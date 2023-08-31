@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"path"
 
+	"github.com/fuskiid/go-git/v5/config"
+	"github.com/fuskiid/go-git/v5/plumbing"
+	"github.com/fuskiid/go-git/v5/plumbing/format/index"
+	"github.com/fuskiid/go-git/v5/plumbing/transport"
 	"github.com/go-git/go-billy/v5"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/format/index"
-	"github.com/go-git/go-git/v5/plumbing/transport"
 )
 
 var (

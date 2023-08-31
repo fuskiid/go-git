@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing"
-	formatcfg "github.com/go-git/go-git/v5/plumbing/format/config"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/protocol/packp/sideband"
-	"github.com/go-git/go-git/v5/plumbing/transport"
+	"github.com/fuskiid/go-git/v5/config"
+	"github.com/fuskiid/go-git/v5/plumbing"
+	formatcfg "github.com/fuskiid/go-git/v5/plumbing/format/config"
+	"github.com/fuskiid/go-git/v5/plumbing/object"
+	"github.com/fuskiid/go-git/v5/plumbing/protocol/packp/sideband"
+	"github.com/fuskiid/go-git/v5/plumbing/transport"
 )
 
 // SubmoduleRescursivity defines how depth will affect any submodule recursive

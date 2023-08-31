@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fuskiid/go-git/v5/plumbing"
+	"github.com/fuskiid/go-git/v5/plumbing/cache"
+	"github.com/fuskiid/go-git/v5/plumbing/filemode"
+	"github.com/fuskiid/go-git/v5/plumbing/storer"
+	"github.com/fuskiid/go-git/v5/storage/filesystem"
 	fixtures "github.com/go-git/go-git-fixtures/v4"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/storage/filesystem"
 
 	. "gopkg.in/check.v1"
 )
